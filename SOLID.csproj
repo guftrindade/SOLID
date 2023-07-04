@@ -4,15 +4,18 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="3 - LSP\" />
-    <Folder Include="2 - OCP\" />
-    <Folder Include="1 - SRP\" />
-    <Folder Include="4 - ISP\" />
-    <Folder Include="5 - DIP\" />
+    <Folder Include="LSP\" />
+    <Folder Include="OCP\" />
+    <Folder Include="ISP\" />
+    <Folder Include="DIP\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
 </Project>
