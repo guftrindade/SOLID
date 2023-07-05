@@ -27,8 +27,6 @@ namespace SOLID.OCP
                     Console.WriteLine("Efetuando operação em Conta Investimento");
                     retorno = debitoConta.DebitarContaInvestimento();
                     break;
-
-                    //Para criação de mais um tipo de conta, basta acrescentar aqui
             }
 
             Menu.RetornoTransacao(retorno);
