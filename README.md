@@ -1,4 +1,5 @@
 # SOLID
+#### 📚 This is just a summary of what I've been reviewing about SOLID. You can find more content in the book *Agile Principles, Patterns, and Practives in C#*.
 
 ### SRP - Single Responsibility Principle
 A class should have one, and only one, reason to change. In the context of the SRP, we define a responsibility to be a reason for change. If you can think of more than one motive for changing a class, that class has more than one responsibility.
@@ -12,3 +13,6 @@ base type has to be well and prominently understood, if not explicitly enforced,
 
 ### ISP - Interface Segregation Principle
 This principle deals with the disadvantages of "fat" interfaces. Classes whose interfaces are not cohesive have "fat" interfaces. In other words, the interfaces of the class can be broken up into groups of methods. Each group serves a different set of clients. Thus, some clients use one group of methods, and other clients use the other groups. **Clients should not be forced to depend on methods they do not use**.
+
+### DIP - The Dependency-Inversion Principle
+A somewhat more naive, yet still very powerful, interpretation of DIP is the simple heuristic: "Depend on abstractions." Simply stated, this heuristic recommends that you should not depend on a concrete class and that rather, all relationships in a program should terminate on an abstract class or an interface.
