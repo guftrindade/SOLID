@@ -20,3 +20,4 @@ A somewhat more naive, yet still very powerful, interpretation of DIP is the sim
 
 Ajuste
 Novo Ajuste
+Novo teste agora vai
