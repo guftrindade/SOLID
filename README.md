@@ -17,3 +17,5 @@ This principle deals with the disadvantages of "fat" interfaces. Classes whose i
 
 ### DIP - The Dependency-Inversion Principle
 A somewhat more naive, yet still very powerful, interpretation of DIP is the simple heuristic: "Depend on abstractions." Simply stated, this heuristic recommends that you should not depend on a concrete class and that rather, all relationships in a program should terminate on an abstract class or an interface.
+
+Ajuste
